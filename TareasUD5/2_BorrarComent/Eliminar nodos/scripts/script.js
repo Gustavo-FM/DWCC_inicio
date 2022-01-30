@@ -15,15 +15,16 @@ const textArea=formulario.querySelector("#textArea")
 
 contador=1
 formulario.addEventListener('submit', e=>{
+    e.preventDefault()
     const article=document.createElement("article")
     const h4=document.createElement("h4")
     const p=document.createElement("p")
-    const cabecera=document.createTextNode("COMENTARIO" + contador)
+    const cabecera=document.createTextNode(`Comentario ${contador}`)
     const texto=document.createTextNode(textArea.value)
     contador++
-    h4.appenChild(cabecera)
-    p.appenChild(texto)
-    article.appenChild(h4)
-    article.appenChild(p)
-    comentarios.appenChild(article)
+    h4.appendChild(cabecera)
+    p.appendChild(texto)
+    article.appendChild(h4)
+    article.appendChild(p)
+    comentarios.appendChild(article)
 })

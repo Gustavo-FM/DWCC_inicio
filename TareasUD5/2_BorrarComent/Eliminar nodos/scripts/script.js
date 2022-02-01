@@ -10,13 +10,16 @@
 
 const formulario=document.querySelector("form")
 const comentarios=document.querySelector("#comentarios")
-const textArea=formulario.querySelector("#textArea")
+const borrar=document.querySelector("#deleteNode")
+const a=document.querySelector("a")
 //const btn=formulario.querySelector("input")
 
 contador=1
+const articles=[]
 formulario.addEventListener('submit', e=>{
     e.preventDefault()
     const article=document.createElement("article")
+    article.className=contador
     const h4=document.createElement("h4")
     const p=document.createElement("p")
     const cabecera=document.createTextNode(`Comentario ${contador}`)
@@ -26,5 +29,23 @@ formulario.addEventListener('submit', e=>{
     p.appendChild(texto)
     article.appendChild(h4)
     article.appendChild(p)
-    comentarios.appendChild(article)
+    const conjunto=comentarios.appendChild(article)
+    articles.push(conjunto)
+    console.log(articles)
 })
+
+a.addEventListener("click", e=>{
+    for(let i=contador; i>=0;i--){
+    articleBorrar=document.querySelector("article")
+    articleClass=articleBorrar.querySelector(".contador")
+    console.log(articleClass)
+    //h4=articleBorrar.querySelector("h4")
+    //cabecera=h4.querySelector(h4.value)
+    //articles.pop()
+    if(i==articleClass)
+        articleBorrar.remove()
+    contador--
+    }
+
+})
+

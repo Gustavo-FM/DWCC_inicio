@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insertar nodos</title>
-    <script src="scripts/script.js"></script>
+    
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -12,7 +12,9 @@
     <section id="formulario">
         <h1>Añade tus comentarios</h1>
         <form action="#">
-            <p><label for="comentario">Comentario<textarea id="textArea" rows="5"></textarea></label></p>
+            <p>
+                <label for="comentario">Comentario<textarea id="textArea" rows="5"></textarea></label>
+            </p>
 
             <label class="container">Añadir comentario
                 <input type="radio" name="nodeAction" checked="checked">
@@ -34,6 +36,13 @@
             <p><input type="submit" value="Enviar" /></p>
         </form>
     </section>
-    <section id="comentarios"></section>
+    <section id="comentarios">
+        <article>
+            <h4>COMENTARIO 0</h4>
+            <p>Puesto a Mano</p>
+        </article>
+    </section>
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>

@@ -15,7 +15,8 @@ const textArea=document.querySelector("#textArea")
 const a=document.querySelector("a")
 //const btn=formulario.querySelector("input")
 
-const articles=[]
+const articles=[]  
+//
 function mostrarArticulos(){
     comentarios.textContent=""
     articles.forEach((article,indice) => {

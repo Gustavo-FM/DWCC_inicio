@@ -20,6 +20,7 @@ function pintarPantalla(){
 
 }
 
+
 formulario.addEventListener("submit",e=>{
     e.preventDefault()
     pintarPantalla()

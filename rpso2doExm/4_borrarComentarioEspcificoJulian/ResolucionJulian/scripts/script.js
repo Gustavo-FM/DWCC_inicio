@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded",eventoDoc=>{
     const renderComentarios=()=>{
         comentarios.innerHTML=""
         const fragmentoComentarios=document.createDocumentFragment()
+        //Donde se definió comments??
         comments.forEach((comment,indice)=>{
             const article=templateComentario.cloneNode(true)
             h4=article.querySelector("h4")
@@ -31,6 +32,8 @@ document.addEventListener("DOMContentLoaded",eventoDoc=>{
             fragmentoComentarios.appendChild(article)
         })
         comentarios.appendChild(fragmentoComentarios)
+         //No sé que hace. Eso es para CONVERTIR al formato JSON que tiene almacenado
+        // EN comments pero, Cuando lo almacenó?? 
         localStorage.setItem("comments",JSON.stringify(comments))
         formulario.reset()
         textArea.focus()
@@ -42,6 +45,7 @@ document.addEventListener("DOMContentLoaded",eventoDoc=>{
             opcionCtrl.textContent=comments.length
             select.appendChild(opcionCtrl)
         } else {
+             //Esto da un booleano?? Julián lo puso pero...
            // if (select.lastChild){
                //no sé porque le pone el if.Esto da un boleano?
                 //le agrego esta linea para probar
@@ -140,6 +144,10 @@ document.addEventListener("DOMContentLoaded",eventoDoc=>{
         }
     })
 
+//no veo dondo ha creado comments.
+    //Aparece en renderComentarios() pero no veo donde se creó
+    //Creo que esto es para almacenar la pagina pero no sé que hace
+    //¿qué es lo que se hace aquí? ¿Para que es esto?
     if (localStorage.getItem("comments")) {
         comments=JSON.parse(localStorage.getItem("comments"))
         comments.forEach(el=>{

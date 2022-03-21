@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded",eventoDoc=>{
         comentarios.innerHTML=""
         const fragmentoComentarios=document.createDocumentFragment()
         //Donde se definió comments??
+        // Respuesta: Al final del script
         comments.forEach((comment,indice)=>{
             const article=templateComentario.cloneNode(true)
             h4=article.querySelector("h4")
@@ -34,12 +35,18 @@ document.addEventListener("DOMContentLoaded",eventoDoc=>{
         comentarios.appendChild(fragmentoComentarios)
          //No sé que hace. Eso es para CONVERTIR al formato JSON que tiene almacenado
         // EN comments pero, Cuando lo almacenó?? 
+        // Respuesta: Es para convertir una variable en formato JSON a cadena para poder almacenarla 
+        // en el navegador. comments está definido al final del script
         localStorage.setItem("comments",JSON.stringify(comments))
         formulario.reset()
         textArea.focus()
     }
     
     const actualizarOpciones=(opcion)=>{
+        // Respuesta: opcion es 1 o 0 (yo lo decidi así, pero podias poner true, false, etc)
+        // Tome la decisión de:
+        // Si es 1, tenemos que crear un nuevo elemento opcion para el select
+        // Si opcion es 0, borramos el ultimo elemento opcion del select
         if (opcion) {
             opcionCtrl=document.createElement("option")
             opcionCtrl.textContent=comments.length
@@ -49,6 +56,7 @@ document.addEventListener("DOMContentLoaded",eventoDoc=>{
            // if (select.lastChild){
                //no sé porque le pone el if.Esto da un boleano?
                 //le agrego esta linea para probar
+
                 console.log(select.lastChild)
                 // Esto es lo que puso 
                 //Julian: select.lastChild.remove()
@@ -144,18 +152,26 @@ document.addEventListener("DOMContentLoaded",eventoDoc=>{
         }
     })
 
-//no veo dondo ha creado comments.
+    //no veo dondo ha creado comments.
     //Aparece en renderComentarios() pero no veo donde se creó
     //Creo que esto es para almacenar la pagina pero no sé que hace
     //¿qué es lo que se hace aquí? ¿Para que es esto?
+    
+    // Respuesta: Si existe la variable comments en el almacenamiento local del navegador
     if (localStorage.getItem("comments")) {
         comments=JSON.parse(localStorage.getItem("comments"))
+        // recupera el contenido de la variable (que es una cadena) creando la variable commentes 
+        // y conviertela en JSON. Itera sobre ella para rellenar los datos de comentarios y 
+        // las opciones del select
         comments.forEach(el=>{
             actualizarOpciones(1)
             if (el.estado)
                 seleccionados.push(el.id)
         })
+        //muestra los comentarios
         renderComentarios()
+        // sino, si no exite la variable almacenada en el servidor, crea la variable comments como un 
+        // array vacio
     } else
         comments=[]
 })

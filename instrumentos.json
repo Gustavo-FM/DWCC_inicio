@@ -40,14 +40,14 @@
       {
         "material": "Madera, metal",
         "nombre": "Oboe",
-        "descripción": "Instrumento de viento de madera con un sonido penetrante y nasal. Se toca soplando aire en una doble lengüeta.",
+        "descripcion": "Instrumento de viento de madera con un sonido penetrante y nasal. Se toca soplando aire en una doble lengüeta.",
         "imagen": "https://pixabay.com/es/oboe-instrumento-musical-madera-3992929",
         "precio": " 835 €"
       },
       {
         "material": "Metal",
         "nombre": "Trombón",
-        "descripción": "Instrumento de viento de metal con un sonido deslizante y profundo. Se utiliza en una amplia variedad de géneros musicales, desde la música clásica hasta el jazz.",
+        "descripcion": "Instrumento de viento de metal con un sonido deslizante y profundo. Se utiliza en una amplia variedad de géneros musicales, desde la música clásica hasta el jazz.",
         "imagen": "https://pixabay.com/es/tromb%C3%B3n-instrumento-musical-metales-3992933",
         "precio": " 1.735 €"
       }
@@ -80,7 +80,7 @@
       {
         "material": "Madera, metal, cuerdas",
         "nombre": "Laúd",
-        "descripción": "Instrumento de cuerda pulsada con un mástil largo y un cuerpo curvo. Se originó en el Medio Oriente y se extendió por todo el mundo.",
+        "descripcion": "Instrumento de cuerda pulsada con un mástil largo y un cuerpo curvo. Se originó en el Medio Oriente y se extendió por todo el mundo.",
         "imagen": "https://es.wikipedia.org/wiki/La%C3%BAd#/media/Archivo:Bar-lute8-ref.jpg",
         "precio": " 2435 €"
       }

@@ -1,0 +1,170 @@
+[  
+  {
+    "tipo": "Viento",
+    "instrumentos": [
+      {
+        "material": "Madera",
+        "nombre": "Flauta dulce",
+        "descripcion": "Instrumento de viento con un registro agudo y dulce. Se toca soplando en un extremo y tapando los orificios con los dedos.",
+        "imagen": "https://es.wikipedia.org/wiki/Flauta_dulce",
+        "precio": " 35 €"
+      },
+      {
+        "material": "Madera, cuero, metal",
+        "nombre": "Acordeón de piano",
+        "descripcion": "En sus dos extremos el fuelle está cerrado por las cajas de madera. La parte de la mano derecha del acordeón tiene además un 'diapasón' con una disposición de teclas que pueden ser como el de un piano (acordeón a piano).",
+        "imagen": "https://es.wikipedia.org/wiki/Acorde%C3%B3n",
+        "precio": " 150 €"
+      },
+      {
+        "material": "Madera, metal",
+        "nombre": "Clariente",
+        "descripcion": "El clarinete es un instrumento musical de la familia de los instrumentos de viento-madera que consta de una boquilla con caña simple.",
+        "imagen": "https://es.wikipedia.org/wiki/Clarinete",
+        "precio": " 242 €"
+      },
+      {
+        "material": "Metal",
+        "nombre": "Trompeta",
+        "descripcion": "Instrumento de viento de metal con un sonido brillante y potente. Se toca soplando en la boquilla y presionando las válvulas.",
+        "imagen": "https://es.wikipedia.org/wiki/Trompeta",
+        "precio": " 735 €"
+      },
+      {
+        "material": "Cuero y madera",
+        "nombre": "Gaita",
+        "descripcion": "Instrumento de viento compuesto por un fuelle y varios tubos que producen diferentes sonidos. Se toca apretando y soltando el fuelle mientras se presionan las teclas.",
+        "imagen": "https://es.wikipedia.org/wiki/Gaita",
+        "precio": " 1350 €"
+      },
+      {
+        "material": "Madera, metal",
+        "nombre": "Oboe",
+        "descripción": "Instrumento de viento de madera con un sonido penetrante y nasal. Se toca soplando aire en una doble lengüeta.",
+        "imagen": "https://pixabay.com/es/oboe-instrumento-musical-madera-3992929",
+        "precio": " 835 €"
+      },
+      {
+        "material": "Metal",
+        "nombre": "Trombón",
+        "descripción": "Instrumento de viento de metal con un sonido deslizante y profundo. Se utiliza en una amplia variedad de géneros musicales, desde la música clásica hasta el jazz.",
+        "imagen": "https://pixabay.com/es/tromb%C3%B3n-instrumento-musical-metales-3992933",
+        "precio": " 1.735 €"
+      }
+    ]
+  },
+  {
+    "tipo": "Cuerda",
+    "instrumentos": [
+      {
+        "material": "Madera",
+        "nombre": "Violín",
+        "descripcion": "Instrumento de cuerda frotada con cuatro cuerdas. Se toca con un arco y tiene un sonido rico y expresivo.",
+        "imagen": "https://es.wikipedia.org/wiki/Viol%C3%ADn#/media/Archivo:Violin_VL100.png",
+        "precio": " 735 €"
+      },
+      {
+        "material": "Madera",
+        "nombre": "Guitarra",
+        "descripcion": "Instrumento de cuerda pulsada con seis cuerdas. Se puede tocar con los dedos o con un púa y tiene un sonido versátil que se utiliza en muchos géneros musicales.",
+        "imagen": "https://es.wikipedia.org/wiki/Guitarra#/media/Archivo:Classical_Guitar_two_views.jpg",
+        "precio": " 535 €"
+      },
+      {
+        "material": "Madera",
+        "nombre": "Arpa",
+        "descripcion": "Instrumento de cuerda pulsada con varias cuerdas que se tocan con los dedos. Tiene un sonido delicado y angelical.",
+        "imagen": "https://es.wikipedia.org/wiki/Arpa#/media/Archivo:26_corde.jpg",
+        "precio": " 7350 €"
+      },
+      {
+        "material": "Madera, metal, cuerdas",
+        "nombre": "Laúd",
+        "descripción": "Instrumento de cuerda pulsada con un mástil largo y un cuerpo curvo. Se originó en el Medio Oriente y se extendió por todo el mundo.",
+        "imagen": "https://es.wikipedia.org/wiki/La%C3%BAd#/media/Archivo:Bar-lute8-ref.jpg",
+        "precio": " 2435 €"
+      }
+    ]
+  },
+  {
+    "tipo": "Percusión",
+    "instrumentos": [
+      {
+        "material": "Madera",
+        "nombre": "Batería",
+        "descripcion": "Conjunto de instrumentos de percusión que se tocan con baquetas o mazos. Se utiliza en muchos géneros musicales, desde el rock hasta el jazz.",
+        "imagen": "https://es.wikipedia.org/wiki/Bater%C3%ADa_(instrumento_musical)#/media/Archivo:Drum_set.svg",
+        "precio": " 3.785 €"
+      },
+      {
+        "material": "Metal",
+        "nombre": "Timbales",
+        "descripcion": "Tambores de metal de diferentes tamaños que se tocan con baquetas. Se utilizan en música latina, caribeña y jazz.",
+        "imagen": "https://es.wikipedia.org/wiki/Timbales_%28m%C3%BAsica_latina%29#/media/Archivo:Timbalesy_HLTBR-1011_firmy_Hayman_cropped.jpg",
+        "precio": " 578 €"
+      },
+      {
+        "material": "Cuero",
+        "nombre": "Maracas",
+        "descripcion": "Instrumentos de percusión hechos con dos calabazas o gourds que contienen semillas secas. Se agitan para producir un sonido rítmico.",
+        "imagen": "https://es.wikipedia.org/wiki/Maracas#/media/Archivo:Sambaballen.JPG",
+        "precio": " 435 €"
+      },
+      {
+        "material": "Madera, metal, piel",
+        "nombre": "Tambor/Bombo",
+        "descripcion": "Instrumentos de percusión de forma cilíndrica, hueco, cubierto por sus dos bases con piel estirada, que se toca con dos palillos.",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/07/WWI_war_drum_%2826680832176%29.jpg",
+        "precio": " 3540 €"
+      },
+      {
+        "material": "Madera, metal, piel",
+        "nombre": "Bongó",
+        "descripcion": "El bongó es un instrumento membranófono conformado por un juego de dos tambores pequeños hechos de madera ligeramente troncocónicos, uno más pequeño que el otro, unidos por una pieza de madera.",
+        "imagen": "https://es.wikipedia.org/wiki/Bong%C3%B3",
+        "precio": " 350 €"
+      }
+    ]
+  },
+  {
+    "tipo": "Otros",
+    "instrumentos": [
+      {
+        "material": "Madera y metal",
+        "nombre": "Piano",
+        "descripcion": "Instrumento de teclado que produce sonido al golpear cuerdas con martillos. Tiene un amplio rango de sonidos y se utiliza en muchos géneros musicales.",
+        "imagen": "https://es.wikipedia.org/wiki/Piano",
+        "precio": " 7.350 €"
+      },
+      {
+        "material": "Electrónico",
+        "nombre": "Sintetizador",
+        "descripcion": "Instrumento musical electrónico que puede producir una amplia gama de sonidos, desde imitaciones de instrumentos acústicos hasta sonidos completamente nuevos. Se utiliza en muchos géneros musicales, desde la música electrónica hasta el pop.",
+        "imagen": "https://es.wikipedia.org/wiki/Sintetizador",
+        "precio": " 8.375 €"
+      },
+      {
+        "material": "Armadillo, madera",
+        "nombre": "Charango",
+        "descripcion": "El charango es un instrumento de cuerda de la familia de laúd, originario de la región andina de Sudamérica.",
+        "imagen": "https://es.wikipedia.org/wiki/Charango",
+        "precio": " 3.540 €"
+      },
+      {
+        "material": "Madera, nacar",
+        "nombre": "Buzuki",
+        "descripcion": "El buzuki o bouzouki o guitarra del sol (en griego: μπουζούκι) es un instrumento musical originario de Grecia, de cuerda pulsada con cuerpo en forma de pera y provisto de un mástil muy largo. Forma parte de la familia de los instrumentos cordófonos de mástil, y tiene una apariencia similar a la de la mandolina.1",
+        "imagen": "https://es.wikipedia.org/wiki/Buzuki",
+        "precio": " 8.735 €"
+      },
+      {
+        "material": "Madera",
+        "nombre": "Guitarra-lira antigua",
+        "descripcion": "Instrumento musical de la familia de los cordófonos, la guitarra-lira era un tipo de guitarra con forma de lira.",
+        "imagen": "https://es.wikipedia.org/wiki/Guitarra-lira",
+        "precio": " 13.580 €"
+      }
+    ]
+  }
+]
+  
